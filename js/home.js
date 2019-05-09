@@ -1,0 +1,62 @@
+$(".fa-search").click(function(){
+    $(".dropdown-menu1").toggle();
+});
+
+$(".fa-shopping-cart").click(function(){
+    $(".dropdown-menu-right").show();
+});
+$(document).ready(function(){
+    $(".img").slideDown(1000);
+    $(".h").fadeIn(3000);
+    $(".p").fadeIn(5000);
+    $(".p1").fadeIn(7000);
+    $(".btn").fadeIn(9000);
+});
+$(".img1").mouseenter(function(){
+    $(".h").css("color","white");
+    $(".p").css("color","white");
+    $(".button").show();
+});
+$(".img1").mouseleave(function(){
+    $(".h").css("color","black");
+    $(".p").css("color","black");
+    $(".button").hide();
+});
+$(".img2").mouseenter(function(){
+    $(".h1").css("color","white");
+    $(".p1").css("color","white");
+    $(".button1").show();
+});
+$(".img2").mouseleave(function(){
+    $(".h1").css("color","black");
+    $(".p1").css("color","black");
+    $(".button1").hide();
+});
+$(".img3").mouseenter(function(){
+    $(".h2").css("color","white");
+    $(".p2").css("color","white");
+    $(".button2").show();
+});
+$(".img3").mouseleave(function(){
+    $(".h2").css("color","black");
+    $(".p2").css("color","black");
+    $(".button2").hide();
+});
+
+
+$('.owl-carousel').owlCarousel({
+    loop:true,
+    margin:10,
+    nav:true,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:3
+        },
+        1000:{
+            items:5
+        }
+    }
+})

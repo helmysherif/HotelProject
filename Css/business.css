@@ -1,0 +1,42 @@
+.content
+{
+    background: #000;
+}
+.logo h3
+{
+    text-transform: capitalize;
+    color:#ff3366;
+    font-size:15px;
+    line-height:50px;
+}
+.logo h3 span
+{
+    color:#fff;
+}
+.nav-item
+{
+    text-transform: uppercase;
+    font-weight:600;
+}
+.navbar-light .navbar-nav .nav-link 
+{
+    color:#fff;
+    transition: .5s;
+    padding-left:10px;
+}
+.navbar-light .navbar-nav .nav-link:hover
+{
+    color:#ff3366;
+}
+.navbar-light .navbar-toggler 
+{
+    color:#fff;
+    border-color: #fff;
+}
+@media(max-width:991px)
+{
+    .navbar-nav
+    {
+        text-align: center;
+    }
+}

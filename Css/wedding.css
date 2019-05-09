@@ -1,0 +1,892 @@
+@import url("https://fonts.googleapis.com/css?family=Merriweather|Playfair+Display");
+@import url("https://fonts.googleapis.com/css?family=Merriweather|Playball|Playfair+Display");
+.content1 .row .carousel {
+  position: relative; }
+.content1 .row .carousel .carousel-indicators {
+  z-index: -1; }
+.content1 .row .carousel .carousel-indicators li {
+  border-radius: 50%;
+  height: 30px;
+  background: transparent;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  cursor: pointer; }
+.content1 .row .carousel .carousel-indicators li.active {
+  background: #ff5f6a; }
+.content1 .row .shadow {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.55); }
+
+.header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  line-height: 100px;
+  background-color: rgba(40, 40, 40, 0);
+  border-bottom: solid 1px rgba(255, 255, 255, 0.2); }
+
+.header .navbar {
+  padding: 0;
+  position: relative;
+  top: -5px; }
+.header .navbar .nav-item .nav-link {
+  color: #fff;
+  text-transform: capitalize;
+  padding-right: 40px; }
+.header .navbar .nav-item .phone {
+  font-size: 19px;
+  background: #fff;
+  color: #292929;
+  padding: 12px 28px;
+  transform: skew(-13deg);
+  line-height: 25px;
+  margin-top: 35px; }
+.header .navbar .nav-item .phone i {
+  float: left;
+  padding-right: 10px;
+  padding-top: 3px; }
+.header .navbar .nav-item .phone span {
+  font-family: "Merriweather", serif; }
+
+.content2 {
+  position: absolute;
+  top: 35%;
+  left: 30%; }
+  @media (max-width: 425px) {
+    .content2 {
+      display: none; } }
+  .content2 .wedding {
+    text-align: center;
+    color: #fff; }
+  .content2 .wedding p {
+    font-weight: 400;
+    display: block;
+    font-size: 34px;
+    text-shadow: none;
+    text-transform: capitalize;
+    margin: 0; }
+  .content2 .wedding h1 {
+    text-transform: capitalize;
+    font-size: 90px;
+    margin: 0;
+    padding: 0;
+    text-shadow: 0 10px 10px #3f3d3d;
+    margin: 0 0 30px 0;
+    position: relative; }
+    .content2 .wedding h1::before {
+      width: 70px;
+      border-bottom: solid 2px #fff;
+      content: '';
+      position: absolute;
+      left: -120px;
+      top: 52%; }
+    .content2 .wedding h1::after {
+      width: 70px;
+      border-bottom: solid 2px #fff;
+      content: '';
+      position: absolute;
+      left: 600px;
+      top: 52%; }
+  .content2 .wedding a {
+    text-decoration: none;
+    text-transform: capitalize;
+    color: #fff;
+    background: #ff5f6a;
+    padding: 12px 28px;
+    transform: skew(-13deg);
+    line-height: 40px;
+    margin-top: 50px;
+    font-size: 25px;
+    display: block;
+    width: 250px;
+    margin-left: 132px;
+    transition: .4s; }
+    .content2 .wedding a:hover {
+      background: #282828; }
+
+.content3 {
+  position: relative;
+  padding-bottom: 100px; }
+
+.content3 .round {
+  background: #fff;
+  top: -60px;
+  width: 75%;
+  height: 220px;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  position: absolute;
+  bottom: -150px;
+  border-radius: 150% / 150%; }
+.content3 .row .col-lg-12 img {
+  margin-bottom: 100px; }
+.content3 .row .col-lg-12 .row .col-lg-3 .photo img {
+  margin-right: 15px;
+  position: relative; }
+.content3 .row .col-lg-12 .row .col-lg-3 .caption {
+  position: absolute;
+  bottom: 100px;
+  left: 0;
+  right: 0;
+  width: 100%;
+  padding: 3.5% 2.5%;
+  background: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  font-weight: 400;
+  font-style: italic;
+  font-size: 27px;
+  margin: 0;
+  padding: 5px 0;
+  text-transform: capitalize;
+  transition: .3s;
+  cursor: pointer; }
+.content3 .row .col-lg-12 .row .col-lg-3:hover .caption {
+  color: #ff5f6a;
+  height: 300px;
+  width: 85%;
+  top: 38%;
+  left: 10%;
+  padding-top: 110px;
+  transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px; }
+
+.content4 img {
+  width: 100%;
+  position: relative; }
+.content4 .caption2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 140px 30px 140px 30px;
+  background: rgba(255, 255, 255, 0.9);
+  width: 50%;
+  height: 100%; }
+  @media (max-width: 425px) {
+    .content4 .caption2 {
+      display: none; } }
+.content4 .caption2 p {
+  color: #282828;
+  text-align: center;
+  clear: both;
+  font-weight: 400;
+  font-size: 42px;
+  text-transform: capitalize; }
+.content4 .caption2 img {
+  width: 35%;
+  margin-bottom: 50px; }
+.content4 .caption2 span {
+  color: #282828;
+  width: 70%;
+  font-weight: 500;
+  margin: 15px auto 15px auto;
+  padding: 0;
+  text-align: center;
+  font-style: italic;
+  line-height: 28px;
+  font-size: 17px; }
+.content4 .wedding3 a {
+  background: #000;
+  margin-left: 220px; }
+.content4 .caption3 {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 140px 30px 140px 30px;
+  background: rgba(255, 255, 255, 0.9);
+  width: 50%;
+  height: 100%; }
+  @media (max-width: 425px) {
+    .content4 .caption3 {
+      display: none; } }
+.content4 .caption3 p {
+  color: #282828;
+  text-align: center;
+  clear: both;
+  font-weight: 400;
+  font-size: 42px;
+  text-transform: capitalize; }
+.content4 .caption3 img {
+  width: 35%;
+  margin-bottom: 50px; }
+.content4 .caption3 span {
+  color: #282828;
+  width: 70%;
+  font-weight: 500;
+  margin: 15px auto 15px auto;
+  padding: 0;
+  text-align: center;
+  font-style: italic;
+  line-height: 28px;
+  font-size: 17px; }
+
+.content5 {
+  background: url("../weddingimg/wedding16.jpg");
+  background-size: cover;
+  padding-top: 100px;
+  padding-bottom: 100px; }
+
+.content5 .row .col-lg-12 .text-center img {
+  margin-bottom: 100px; }
+.content5 .row .col-lg-12 .box {
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  padding: 0;
+  box-shadow: 0 0 15px #eceaea;
+  padding-top: 20px; }
+  @media (max-width: 425px) {
+    .content5 .row .col-lg-12 .box {
+      margin-bottom: 50px; } }
+.content5 .row .col-lg-12 .box span {
+  font-size: 40px;
+  text-transform: capitalize;
+  font-weight: bold; }
+.content5 .row .col-lg-12 .box h4 {
+  font-weight: 400;
+  font-size: 25px;
+  margin: 0;
+  padding: 0;
+  text-transform: capitalize;
+  position: relative;
+  top: -5px; }
+.content5 .row .col-lg-12 .box h1 {
+  font-weight: 700;
+  font-size: 40px;
+  margin: 0;
+  padding: 0;
+  text-transform: capitalize;
+  padding-top: 20px;
+  font-style: normal;
+  color: #ff5f6a;
+  position: relative;
+  top: -10px; }
+.content5 .row .col-lg-12 .box ul {
+  margin: 0;
+  padding: 0;
+  padding: 20px 30px 30px 0px; }
+.content5 .row .col-lg-12 .box ul li {
+  list-style: none;
+  text-align: left;
+  padding: 0px 0 15px 25px;
+  font-size: 16px;
+  font-weight: 500; }
+.content5 .row .col-lg-12 .box ul li i {
+  float: left;
+  color: #ff5f6a;
+  padding-top: 5px;
+  padding-right: 15px; }
+.content5 .row .col-lg-12 .box ul li p {
+  text-transform: capitalize; }
+.content5 .row .col-lg-12 .box a {
+  text-decoration: none;
+  text-transform: capitalize;
+  color: #fff;
+  background: #282828;
+  padding: 13px 28px;
+  transform: skew(-13deg);
+  font-size: 25px;
+  line-height: 20px;
+  display: block;
+  width: 170px;
+  margin-left: 40px;
+  transition: .4s;
+  position: relative;
+  top: 23px; }
+.content5 .row .col-lg-12 .box:hover a {
+  background: #ff5f6a; }
+
+.content6 {
+  background: url("../weddingimg/wedding17.jpg");
+  background-size: cover; }
+
+.content6 .box2 {
+  position: relative;
+  border: 1px solid #fff;
+  margin-top: 100px;
+  margin-bottom: 100px; }
+.content6 .box2 h1 {
+  margin-bottom: 40px;
+  font-size: 110px;
+  line-height: 100%;
+  font-weight: 700;
+  text-shadow: 0 10px 10px rgba(79, 79, 79, 0.4);
+  color: #fff;
+  text-transform: capitalize;
+  padding-top: 50px;
+  margin-bottom: 0;
+  padding-bottom: 0; }
+  @media (max-width: 425px) {
+    .content6 .box2 h1 {
+      font-size: 67px; } }
+.content6 .box2 p {
+  color: #fff;
+  font-size: 30px;
+  padding-top: 15px;
+  padding-bottom: 100px;
+  margin: 0; }
+.content6 .box2 h3 {
+  font-family: 'Playball', cursive;
+  color: #fff;
+  text-transform: capitalize;
+  font-size: 40px;
+  position: relative;
+  top: -25px;
+  left: 42%;
+  width: 203px;
+  text-align: center;
+  z-index: 1000;
+  background: transparent;
+  background: #ff5f6a; }
+  @media (max-width: 425px) {
+    .content6 .box2 h3 {
+      left: 17%; } }
+.content6 .box2 a {
+  text-decoration: none;
+  text-transform: capitalize;
+  color: #282828;
+  background: #fff;
+  padding: 13px 28px;
+  transform: skew(-13deg);
+  font-size: 25px;
+  line-height: 20px;
+  display: block;
+  width: 200px;
+  margin-left: 450px;
+  transition: .4s;
+  position: relative;
+  top: 23px; }
+  @media (max-width: 425px) {
+    .content6 .box2 a {
+      margin-left: 42px; } }
+
+.content7 {
+  background: url("../weddingimg/wedding18.jpg");
+  background-size: cover; }
+
+.content7 .row .offer {
+  padding: 12% 16%;
+  border: 5px solid #f6f5f4;
+  position: relative;
+  left: -11px;
+  margin-top: 75px;
+  margin-bottom: 75px; }
+.content7 .row .offer h1 {
+  text-transform: capitalize;
+  margin: 0 0 45px 0; }
+.content7 .row .offer p {
+  font-weight: 400;
+  margin: 0 0 15px;
+  padding: 0;
+  text-align: left;
+  font-style: italic;
+  text-transform: capitalize;
+  margin: 0 0 15px;
+  line-height: 28px;
+  font-size: 16px;
+  font-weight: 450; }
+.content7 .row .offer a {
+  text-decoration: none;
+  text-transform: capitalize;
+  color: #fff;
+  background: #282828;
+  padding: 13px 28px;
+  transform: skew(-13deg);
+  font-size: 25px;
+  line-height: 20px;
+  display: block;
+  width: 200px;
+  transition: .4s;
+  text-align: center;
+  margin-top: 45px; }
+.content7 .photo2 {
+  background: #fff;
+  border-radius: 50%;
+  text-align: center;
+  height: 120px;
+  width: 120px;
+  padding-top: 30px;
+  margin-left: 35px;
+  margin-bottom: 15px; }
+.content7 .photo2 img {
+  text-align: center; }
+.content7 span {
+  font-size: 20px;
+  text-transform: capitalize;
+  font-weight: 700; }
+
+.content8 {
+  padding-bottom: 100px;
+  background: #fbfbfb;
+  padding-top: 50px; }
+
+.content8 .row .col-lg-12 .works {
+  color: #282828;
+  font-size: 31px;
+  width: 65%;
+  line-height: 50px;
+  text-align: center;
+  font-weight: 600;
+  margin: 15px auto 15px auto;
+  padding: 0;
+  font-style: italic;
+  padding-top: 20px;
+  padding-bottom: 50px; }
+.content8 .row .col-lg-12 .box3 {
+  border: 1px solid #ff5f6a;
+  padding: 0 30px 30px 30px;
+  min-height: 200px;
+  box-sizing: border-box;
+  text-align: center;
+  margin-top: 50px;
+  border-radius: 5px;
+  width: 100%;
+  cursor: pointer;
+  transition: .3s; }
+  .content8 .row .col-lg-12 .box3:hover {
+    border: 1px solid #282828;
+    border-radius: 5px; }
+.content8 .row .col-lg-12 .box3 img {
+  display: block; }
+.content8 .row .col-lg-12 .box3 span {
+  line-height: 36px;
+  position: relative;
+  top: 100px;
+  text-transform: capitalize;
+  margin: 35px 0 0 0;
+  font-weight: 400;
+  font-size: 30px; }
+
+.content9 {
+  padding-bottom: 120px; }
+
+.content9 .row .col-lg-12 .photo3 {
+  border: 2px dashed #d9d9d9;
+  padding: 8px;
+  cursor: pointer;
+  margin-top: 30px; }
+  .content9 .row .col-lg-12 .photo3:hover {
+    border: 2px dashed #ff5f6a; }
+.content9 .row .col-lg-12 .photo3 img {
+  width: 100%; }
+.content9 .row .col-lg-12 p {
+  text-transform: capitalize;
+  font-size: 25px;
+  font-weight: 700;
+  text-align: center;
+  padding-top: 15px; }
+
+.content10 {
+  background: url("../weddingimg/wedding32.jpg");
+  background-size: cover; }
+
+.content10 .party {
+  text-align: center;
+  padding-right: 15px;
+  padding-bottom: 30px; }
+.content10 .party .number2 {
+  border-right: 1px solid #fff;
+  line-height: 50px;
+  margin-top: 100px;
+  margin-bottom: 100px; }
+.content10 .party .number3 {
+  font-style: italic;
+  font-weight: 300;
+  font-family: 'Playfair Display';
+  font-size: 72px;
+  color: #fff; }
+.content10 .party .number3 p {
+  display: inherit;
+  font-style: italic;
+  font-weight: 300;
+  font-family: 'Playfair Display';
+  font-size: 34px;
+  padding-left: 5px;
+  vertical-align: super;
+  position: relative;
+  top: 13px;
+  left: -10px; }
+.content10 .party h5 {
+  display: block;
+  text-transform: capitalize;
+  font-weight: 600;
+  color: #fff;
+  font-size: 30px;
+  font-weight: 400;
+  padding-top: 10px;
+  position: relative;
+  left: -13px; }
+
+.content11 {
+  background: #f8f7f7;
+  padding-bottom: 100px;
+  padding-top: 50px; }
+
+.content11 h1 {
+  padding-top: 100px; }
+.content11 .row .col-lg-4 .box4 {
+  margin-bottom: 50px; }
+.content11 .row .col-lg-4 .box4 .image1 {
+  border: 1px solid #fff;
+  padding: 10px;
+  background: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 10px #eae7e7;
+  margin-bottom: 30px; }
+.content11 .row .col-lg-4 .box4 .image1 img {
+  width: 100%; }
+.content11 .row .col-lg-4 .box4 a {
+  text-decoration: none;
+  padding: 40px;
+  text-transform: capitalize;
+  font-weight: 500;
+  font-size: 30px;
+  color: #161616;
+  position: relative;
+  padding-bottom: 0px; }
+  @media (max-width: 425px) {
+    .content11 .row .col-lg-4 .box4 a {
+      font-size: 28px; } }
+  .content11 .row .col-lg-4 .box4 a::before {
+    background: #ff5f6a;
+    content: '';
+    height: 33px;
+    width: 3px;
+    position: absolute;
+    left: 0; }
+.content11 .row .col-lg-4 .box4 .box5 {
+  padding: 20px 0px 0 35px;
+  overflow: hidden; }
+.content11 .row .col-lg-4 .box4 .box5 p {
+  line-height: 28px;
+  padding: 0;
+  margin: 0;
+  font-style: italic;
+  text-transform: capitalize;
+  font-weight: 500;
+  color: #292929;
+  padding-bottom: 30px; }
+.content11 .row .col-lg-4 .box4 .box5 span {
+  margin: 0;
+  padding-right: 5px;
+  text-transform: capitalize;
+  font-size: 15px;
+  font-style: italic;
+  font-family: Merriweather;
+  color: #292929;
+  opacity: .6; }
+.content11 .view a {
+  text-decoration: none;
+  text-transform: capitalize;
+  color: #fff;
+  background: #282828;
+  padding: 13px 28px;
+  transform: skew(-13deg);
+  font-size: 25px;
+  line-height: 20px;
+  display: block;
+  width: 200px;
+  transition: .4s;
+  text-align: center;
+  margin-top: 45px;
+  position: relative;
+  left: 39%; }
+  @media (max-width: 425px) {
+    .content11 .view a {
+      left: 14%; } }
+
+.content12 {
+  background: url("../weddingimg/wedding36.jpg");
+  background-size: cover; }
+
+.content12 h1 {
+  text-align: center;
+  text-transform: capitalize;
+  color: #fff;
+  font-weight: 500;
+  margin: 40px 0 100px 0; }
+.content12 .box6 {
+  border: solid 1px rgba(241, 241, 241, 0.07);
+  background-color: rgba(241, 241, 241, 0.2);
+  color: #fff;
+  margin: 10px 30px 0 0;
+  position: relative;
+  padding: 45px 40px;
+  box-sizing: border-box;
+  border-radius: 5px;
+  position: relative; }
+.content12 .box6 .test-des {
+  line-height: 28px;
+  height: 140px;
+  overflow: auto;
+  font-weight: 400;
+  font-style: italic;
+  font-size: 17px; }
+.content12 .icon {
+  color: #fff;
+  background-color: #ff5f6a;
+  width: 54px;
+  height: 54px;
+  position: absolute;
+  top: 0px;
+  right: 5px;
+  text-align: center;
+  padding-top: 16px;
+  border-radius: 50%; }
+  .content12 .icon::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    width: 0;
+    height: 0;
+    border: 17px solid transparent;
+    border-top-color: #ff5f6a;
+    border-bottom: 0;
+    border-left: 0;
+    margin-left: -5px;
+    margin-bottom: -12px; }
+  .content12 .icon .icon i {
+    padding-left: 19px;
+    line-height: 3.3;
+    font-size: 17px; }
+.content12 p {
+  text-transform: capitalize;
+  color: #fff;
+  font-weight: bold;
+  font-size: 20px;
+  padding-top: 25px;
+  padding-bottom: 25px; }
+.content12 .owl-nav {
+  display: none; }
+.content12 .owl-theme .owl-dots {
+  margin-bottom: 50px; }
+.content12 .owl-theme .owl-dots .owl-dot span {
+  width: 20px;
+  height: 20px;
+  background: #fff; }
+.content12 .owl-theme .owl-dots .owl-dot.active span {
+  background: #ff5f6a; }
+
+.content13 {
+  padding-bottom: 100px;
+  padding-top: 50px; }
+
+@media (max-width: 425px) {
+  .content13 .container {
+    padding: 0; } }
+.content13 .row {
+  width: 90%;
+  margin-left: 50px; }
+  @media (max-width: 425px) {
+    .content13 .row {
+      width: 100%;
+      margin-left: 0; } }
+  .content13 .row form input {
+    border: 0;
+    width: 100%;
+    background: #f8f7f7;
+    border-radius: 30px;
+    padding: 20px 50px;
+    margin: 0 0 30px 0; }
+    .content13 .row form input::placeholder {
+      color: grey;
+      text-transform: capitalize;
+      font-size: 20px; }
+  .content13 .row form textarea {
+    border: 0;
+    width: 100%;
+    background: #f8f7f7;
+    border-radius: 30px;
+    padding: 20px 50px;
+    margin: 0 0 30px 0; }
+    .content13 .row form textarea::placeholder {
+      color: grey;
+      text-transform: capitalize;
+      font-size: 20px; }
+.content13 a {
+  text-decoration: none;
+  text-transform: capitalize;
+  color: #fff;
+  background: #ff5f6a;
+  padding: 13px 28px;
+  transform: skew(-13deg);
+  font-size: 25px;
+  line-height: 20px;
+  display: block;
+  width: 200px;
+  transition: .4s;
+  text-align: center;
+  margin-top: 25px;
+  position: relative;
+  left: 39%; }
+  @media (max-width: 425px) {
+    .content13 a {
+      left: 14%; } }
+
+.content14 {
+  background: #f8f7f7;
+  padding-top: 50px; }
+
+.content14 h1 {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  color: #282828;
+  font-weight: 500;
+  padding-bottom: 15px;
+  font-size: 45px;
+  text-transform: capitalize;
+  padding-top: 100px; }
+.content14 .gallery {
+  text-align: center; }
+.content14 .gallery img {
+  float: left;
+  width: 14.2857142857%;
+  margin-bottom: 100px;
+  box-sizing: border-box;
+  margin-right: 20px; }
+  @media (max-width: 425px) {
+    .content14 .gallery img {
+      width: 100%;
+      margin-bottom: 50px; } }
+
+.footer {
+  background: #0e0e0e;
+  padding: 40px; }
+
+@media (max-width: 425px) {
+  .footer .row .col-lg-3 {
+    margin-bottom: 50px; } }
+.footer .row .col-lg-3 h1 {
+  color: #fff;
+  text-transform: capitalize;
+  font-size: 25px; }
+.footer .row .col-lg-3 .border3 {
+  border-bottom: 2px solid #ff5f6a;
+  width: 60px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  display: block; }
+.footer .row .col-lg-3 p {
+  color: #919090;
+  font-size: 15px;
+  font-style: italic;
+  line-height: 24px;
+  margin-bottom: 10px; }
+.footer .row .col-lg-3 ul {
+  margin: 0;
+  padding: 0; }
+.footer .row .col-lg-3 ul li {
+  list-style: none;
+  color: #919090;
+  font-size: 15px;
+  text-transform: capitalize;
+  cursor: pointer;
+  transition: .2s;
+  padding-top: 12px; }
+  .footer .row .col-lg-3 ul li:hover {
+    color: #ff5f6a; }
+.footer .row .col-lg-3 ul li i {
+  float: left;
+  padding-right: 5px;
+  font-size: 11px;
+  padding-top: 6px;
+  color: #919090; }
+.footer .row .col-lg-3 ul li:hover i {
+  color: #ff5f6a; }
+.footer .row .col-lg-3 .gallery {
+  border-bottom: 1px dashed #353535;
+  padding-bottom: 30px;
+  margin-bottom: 20px; }
+.footer .row .col-lg-3 .gallery img {
+  float: left;
+  margin-right: 15px; }
+.footer .row .col-lg-3 .gallery .text5 {
+  color: #d9d9d9;
+  position: relative;
+  top: -5px; }
+.footer .row .col-lg-3 .gallery .text5 .list2 {
+  text-transform: capitalize;
+  font-weight: bold; }
+.footer .row .col-lg-3 .test {
+  color: #919090; }
+.footer .row .col-lg-3 .test2 {
+  margin: 0;
+  padding: 0; }
+.footer .row .col-lg-3 .test2 li {
+  list-style: none;
+  color: #919090;
+  font-size: 15px; }
+  .footer .row .col-lg-3 .test2 li:hover {
+    color: #fff; }
+.footer .row .col-lg-3 .social {
+  margin-top: 30px; }
+.footer .row .col-lg-3 .social i {
+  float: left;
+  padding: 10px;
+  margin-right: 7px;
+  color: #fff;
+  background: #1c1c1c;
+  text-align: center;
+  cursor: pointer;
+  transition: .2s; }
+  .footer .row .col-lg-3 .social i:hover {
+    background: #ff5f6a; }
+  @media (max-width: 425px) {
+    .footer .row .col-lg-3 .social i {
+      margin-right: 15px; } }
+
+.footer2 {
+  background: #000; }
+
+.footer2 p {
+  text-align: center;
+  color: #858484;
+  padding: 20px 20px 10px 20px; }
+
+/* end countdown */
+.skew, .header .navbar .nav-item .phone i, .header .navbar .nav-item .phone span {
+  transform: skew(13deg);
+  display: inline-block;
+  transition: 0.3s; }
+
+.header-hover, .header .navbar .nav-item .phone:hover i, .header .navbar .nav-item .phone:hover span {
+  color: #ff5f6a; }
+
+.fonts, .content2 .wedding p, .content2 .wedding h1, .content2 .wedding a, .content3 .row .col-lg-12 h1, .content3 .row .col-lg-12 .row .col-lg-3 .caption, .content4 .caption2 p, .content4 .wedding3 a, .content4 .caption3 p, .content5 .row .col-lg-12 .title, .content5 .row .col-lg-12 .box span, .content5 .row .col-lg-12 .box h4, .content5 .row .col-lg-12 .box a, .content6 .box2 h1, .content6 .box2 p, .content6 .box2 a, .content7 .row .offer h1, .content7 .row .offer a, .content7 span, .content8 .row .col-lg-12 h1, .content8 .row .col-lg-12 .box3 span, .content9 .row .col-lg-12 h1, .content9 .row .col-lg-12 p, .content10 .party h5, .content11 h1, .content11 .row .col-lg-4 .box4 a, .content11 .view a, .content12 h1, .content13 h1, .content13 a, .content14 h1, .footer .row .col-lg-3 h1 {
+  font-family: "Merriweather", serif;
+  font-family: "Playfair Display", serif;
+  font-family: "Playball", cursive; }
+
+.links, .content4 .wedding3 a {
+  text-decoration: none;
+  text-transform: capitalize;
+  color: #fff;
+  padding: 13px 28px;
+  transform: skew(-13deg);
+  margin-top: 50px;
+  font-size: 25px;
+  line-height: 20px;
+  display: block;
+  width: 170px;
+  transition: .4s; }
+
+.text, .content3 .row .col-lg-12 h1, .content5 .row .col-lg-12 .title, .content8 .row .col-lg-12 h1, .content9 .row .col-lg-12 h1, .content11 h1, .content13 h1 {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  color: #282828;
+  font-weight: 500;
+  padding-bottom: 15px;
+  font-size: 45px;
+  text-transform: capitalize; }
+
+/*# sourceMappingURL=wedding.css.map */

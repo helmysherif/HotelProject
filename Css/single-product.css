@@ -1,0 +1,313 @@
+.container .row .col-md-6 ul
+{
+    list-style:none;
+    padding-left:0;
+    margin: 0;
+    padding: 0;
+}
+.container .row .col-md-6 ul li
+{
+    display: inline-block;
+}
+.header .container .row .col-md-6 ul li a
+{
+    padding: 0 3px;
+    display: block;
+    line-height: 35px;
+    font-size: 14px;
+    transition: all .3s ease-in-out;
+    color: #797979;
+    text-decoration:none;
+}
+.header .container .row .col-md-6 .list
+{
+    padding-left:0;
+    float: right;
+    list-style:none;
+}
+.header .container .row .col-md-6 .list .account
+{
+    padding:0;
+    margin:0 0 0 10px;
+}
+.header .container .row .col-md-6 .list .account span a {
+    font-size: 12px;
+    display: inline-block;
+    color: #d9d9d9;
+    transition: all .3s ease-in-out;
+    padding:0 3px;
+    text-decoration:none;
+}
+.header .container .row .col .col-md-6 .account span small
+{
+    color: rgba(255,255,255,.5);
+    padding: 0 10px;
+    font-size: 80%;
+    font-weight: 400;
+}
+.header .container .row .col-md-6 .list .search a .fa-search
+{
+    width:20px;
+    font-size:16px;
+    margin-right:10px;
+    color: #fff;
+    transition: all .3s ease-in-out;
+    padding: 0 10px;
+    border-left:1px solid #5c2020;
+}
+.header .container .row .col-12 .list .search .dropdown-menu1
+{
+    width:350px;
+    padding: 10px 15px;
+    border-radius: 0;
+    right: 0;
+    left: auto;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 1000;
+    display: none;
+    float: left;
+    min-width: 10rem;
+    padding: .5rem 0;
+    margin: .125rem 150px 0;
+    font-size: 1rem;
+    color: #212529;
+    text-align: left;
+    list-style: none;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid rgba(0,0,0,.15);
+}
+.header .container .row .col-12 .list .search .dropdown-menu1 .form-inline input[type="text"],.btn
+{
+    border-radius:0;
+}
+.header .container .row .col-md-6 .list .search a .fa-search:hover
+{
+    color: #797979;
+}
+.header .container .row .col-md-6 .list .shop 
+{
+    background-color:#47bac1;
+}
+.header .container .row .col-md-6 .list .shop .a1 .fa-shopping-cart
+{
+    font-size: 20px;
+    margin-right: 10px;
+    display: inline-block;
+    color:white;
+}
+.header .container .row .col .list .shop .a1 span
+{
+    color:white;
+}
+
+.header2 .container .row .col .navbar .collapse .navbar-nav .nav-item .nav-link
+{
+    margin: 0;
+    padding-right:20px;
+    letter-spacing: 1px;
+    font-size: 14px;
+}
+.header2 .container .row .col .navbar .collapse .navbar-nav .nav-item .nav-link:hover
+{
+    color:#00b3b3;
+}
+.header2 .container .row .col .navbar .collapse .navbar-nav .nav-item .dropdown-menu .dropdown-item
+{
+    padding-bottom:15px;
+    background-color:white;
+    z-index: 1;
+    transition: .5s;
+}
+.header2 .container .row .col .navbar .collapse .navbar-nav .nav-item .dropdown-menu .dropdown-item:hover
+{
+    color:#00b3b3;
+}
+.header2 .container .row .col .navbar .collapse .navbar-nav .nav-item .dropdown-menu 
+{
+    display:none;
+}
+.header2 .container .row .col .navbar .collapse .navbar-nav .nav-item:hover .dropdown-menu
+{
+    display:block;
+}
+.bar .cont .row .col-lg-6 SPAN
+{
+    float: right;
+    padding:20px 10px 0 0;
+    opacity:.5;
+}
+.bar .cont .row .col-lg-6 SPAN:after
+{
+    content:"/";
+    padding-left:10px;
+    opacity:.5;
+}
+.bar .cont .row .col-lg-6 SPAN:first-child:after
+{
+    content:"";
+}
+.bar .cont .row .col-lg-6 SPAN:first-child
+{
+    opacity:1;
+}
+.header2 .container .row .col-lg-9 .nav-item .menu .container 
+{
+    border:1px solid lightgray
+}
+.header2 .container .row .col-lg-9 .nav-item .menu .container .row .col-lg-3
+{
+    border-right:3px solid lightgrey
+}
+.header2 .container .row .col-lg-9 .nav-item .menu .container .row .col-lg-3 .dropdown-item 
+{
+    text-align:left;
+}
+.header2 .container .row .col-lg-9 .nav-item .menu1 .container 
+{
+    border:1px solid lightgray
+}
+.header2 .container .row .col-lg-9 .nav-item .menu1 .container .row .col-lg-4
+{
+    border-right:3px solid lightgrey
+}
+.cont3 .row .col-lg-6 a
+{
+    text-decoration:none;
+    color:#797979;
+}
+.cont3 .row .col-lg-6 .fa
+{
+    color:#797979;
+    margin-bottom:30px;
+}
+.cont3 .row .col-lg-6 p
+{
+    color:#797979;
+    font-weight:600;
+    font-size:23px;
+    margin-bottom:30px;
+}
+.cont3 .row .col-lg-6 .p
+{
+    color:#797979;
+    font-weight:600;
+    font-size:15px;
+    margin-bottom:30px;
+}
+.cont3 .row .col-lg-6 form
+{
+    margin-bottom:30px;
+}
+.cont3 .row .col-lg-6 .btn
+{
+    font-size:17px;
+    width:200px;
+    height:60px;
+    margin-bottom:30px;
+}
+.cont3 .row .col-lg-6 .nav .nav-item .nav-link
+{
+    border:none;
+    padding-left:60px;
+}
+.cont4 .row .col-lg-3 a
+{
+    text-decoration:none;
+    color:black;
+}
+.cont4 .row .col-lg-3 .p
+{
+    font-weight:600;
+    font-size:20px;
+    color:grey;
+}
+.footer .cont4 .row .col-lg-2 h3
+{
+    color:grey;
+    font-size:15px;
+    text-align: center;
+}
+.footer .cont4 .row .col-lg-2 ul li
+{
+    color:white;
+    list-style:none;
+    text-align: center;
+}
+.footer .cont4 .row .col-lg-2 .icons li 
+{
+    display: inline-block;
+    padding-left:5px;
+    text-align: center;
+}
+.footer .cont4 .row .col-lg-2 .p 
+{
+    color:lightgrey;
+    font-size:11px;
+    text-align: center;
+}
+.footer .cont4 .row .col-lg-2 .icons li a
+{
+    display: block;
+    line-height: 35px;
+    font-size: 18px;
+    transition: all .3s ease-in-out;
+    color: #797979;
+    text-decoration:none;
+}
+.footer .cont4 .row .col-lg-4 .h1 
+{
+    text-align: center;
+    font-size:18px;
+    color:gray;
+    margin-bottom:0;
+}
+.footer .cont4 .row .col-lg-4 .h
+{
+    text-align: center;
+    font-size:21px;
+    color:lightgray;
+}
+.footer .cont4 .row .col-lg-4 .p2
+{
+    padding-right:30px;
+    text-align: center;
+    padding-left:60px;
+    color:#acacac;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 18px;
+}
+.footer .cont4 .row .col-lg-4 form 
+{
+    padding-left:80px
+}
+.footer .cont4 .row .col-lg-4 form .row .col input[type = "text"]
+{
+    border-radius: 0;
+    background-color: #3b3b3b;
+    color:white;
+    line-height: 1.8;
+    border:1px solid #3b3b3b;
+    width:170px;
+    margin-right: 5%;
+}
+.footer .cont4 .row .col-lg-4 form .row .col .btn
+{
+    background:none;
+    border-radius:0;
+    border:3px solid aqua;
+    transition:.5s;
+    margin-left:-20px
+}
+.footer .cont4 .row .col-lg-4 form .row .col .btn:HOVER
+{
+    background:aqua;   
+}
+.footer .cont4 .row .col-lg-4 form .row .col .btn .fa
+{
+    padding:0 10px 0 10px;
+    color:aqua;
+}

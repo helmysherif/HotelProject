@@ -1,0 +1,678 @@
+.content1
+{
+    position: relative;
+}
+.header
+{
+    position: absolute;
+    top:30px;
+    width:100%;
+}
+.header .image
+{
+    background: #ff4e00;
+    padding:30px;
+    padding-right: 50px;
+    position: relative;
+    z-index: 1;
+}
+.header .image:after
+{
+    bottom: 0;
+    content: "";
+    position: absolute;
+    left: -99988px;
+    top: 0px;
+    width: 99999px;
+    background: #ff4e00;
+}
+.header .image:before
+{
+    background: #ff4e00;
+    content: '';
+    height: 100%;
+    margin: 0;
+    position: absolute;
+    left: 90%;
+    top: 0;
+    width: 70px;
+    transform: skew(30deg);
+    z-index: -1;
+
+}
+.header .navbar
+{
+    float: right;
+    padding-top:30px;
+}
+.header .navbar .nav-item .nav-link
+{
+    color:#fff;
+    text-transform: capitalize;
+    padding-right: 20px;
+}
+.header .navbar .nav-item .nav-link.active
+{
+    color:#ff4e00;
+}
+.content2
+{
+    position: absolute;
+    top:50%;
+    left:6%;
+}
+.content2 h1
+{
+    text-transform: uppercase;
+    color:#fff;
+    font-weight: 700;
+}
+.content2 h2
+{
+    font-size: 90px;
+    font-weight: 700;
+    color:#fff;
+    text-transform: uppercase;
+}
+.content2 p
+{
+    color:#fff;
+    width:550px;
+    font-size: 18px;
+}
+.content2 .btn
+{
+    background: #ff4e00;
+    color:#fff;
+    border:0;
+    border-radius: 25px;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding:12px 30px 12px 30px;
+    margin-top:20px;
+}
+.content3
+{
+    background: url("../CarRentImg/car5.png");
+    background-size: cover;
+    padding-top:100px;
+    padding-bottom:200px;
+}
+.content3 .row p
+{
+    font-family: 'lora';
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom:0;
+}
+.content3 .row h1
+{
+    font-size: 64px;
+    color:#282828;
+    font-weight: bold;
+    font-family: 'lora';
+    text-transform: uppercase;
+}
+.content3 .row  h1 span
+{
+    color:#ff4e00;
+}
+.content3 .row  .caption
+{
+    font-size: 13px;
+}
+.content3 .row .button1
+{
+    padding-top:80px;
+}
+.content3 .row a
+{
+    color:#fff;
+    background: #ff4e00;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 17px;
+    font-family: "lora";
+    padding:15px;
+    position: relative;
+    z-index: 1000;
+}
+.content3 .row a:after
+{
+    bottom: 0;
+    content: "";
+    position: absolute;
+    left: -99988px;
+    top: 0px;
+    width: 99999px;
+    background: #ff4e00;
+}
+.content3 .row a:before
+{
+    background: #ff4e00;
+    content: '';
+    height: 100%;
+    margin: 0;
+    position: absolute;
+    left: 72%;
+    top: 0;
+    width: 35px;
+    transform: skew(-30deg);
+    z-index: -1;
+}
+.content4
+{
+    margin-bottom:50px;
+}
+.content4 .row .col-lg-12 h1
+{
+    font-family: 'lora';
+    font-weight: bold;
+    text-transform: uppercase;
+    padding-top:30px;
+    padding-bottom:30px;
+}
+.content4 .row .view
+{
+    float: right;
+    position: relative;
+    top:-72px;
+}
+.content4 .row a
+{
+    color:#fff;
+    background: #ff4e00;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 17px;
+    font-family: "lora";
+    padding:15px;
+    position: relative;
+    z-index: 1000;
+    border-radius: 10px;
+}
+.content4 .row .owl-carousel
+{
+    padding-top:50px;
+}
+.content4 .row .owl-stage-outer
+{
+    width:100%;
+}
+.content4 .row .owl-carousel .item
+{
+    background-color: #f8f7f7;
+    margin-right: 15px;
+    transition: .5s;
+}
+.content4 .row .owl-carousel .item .info2 span
+{
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: 'lora';
+    transition: .5s;
+}
+.content4 .row .links3
+{
+    padding-top:70px;
+}
+.content4 .row .link2
+{
+    color:#fff;
+    background: #ff4e00;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 17px;
+    font-family: "lora";
+    padding:10px;
+    top:-2px;
+    position: relative;
+    z-index: 1000;
+    line-height: 33px;
+    border-radius: 0;
+}
+.content4 .row .link2:before
+{
+    background: #ff4e00;
+    content: '';
+    height: 100%;
+    margin: 0;
+    position: absolute;
+    left: 80%;
+    top: 0;
+    width: 35px;
+    transform: skew(-30deg);
+    z-index: -1;
+}
+.content4 .row .link5
+{
+    color:#888;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 17px;
+    font-family: "lora";
+    position: relative;
+    left:0%;
+    top:-48px;
+    float: right;
+    background: transparent;
+}
+.content4 .row .owl-carousel .item:hover .link2
+{
+    background: #282828;
+}
+.content4 .row .owl-carousel .item:hover .link2:before
+{
+    background: #282828;
+}
+.content4 .row .owl-carousel .item:hover .link5
+{
+    color: #ff4e00;
+}
+.content4 .row .owl-carousel .owl-prev 
+{
+    margin:-2px;
+}
+.content4 .row .owl-carousel .owl-next 
+{
+    margin:0;
+}
+.content4 .row .owl-carousel .owl-prev span
+{
+    font-size: 30px;
+    border:1px solid #bbb;
+    padding: 0px 16px 3px 16px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+.content4 .row .owl-carousel .owl-prev:hover
+{
+    background: #fff;
+    color:#000;
+}
+.content4 .row .owl-carousel .owl-next span
+{
+    font-size: 30px;
+    border:1px solid #bbb;
+    padding: 0px 16px 3px 16px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.content4 .row .owl-carousel .owl-next:hover
+{
+    background: #fff;
+    color:#000;
+}
+.content4 .row .owl-carousel .owl-dots
+{
+    display: none;
+}
+.content5
+{
+    background: url("../CarRentImg/car18.jpg");
+    background-size: cover;
+    overflow: hidden;
+    padding-top:60px;
+}
+.content5 .row .col-lg-6 .text2 p
+{
+    color:#fff;
+    font-size: 23px;
+    font-weight: bold;
+    margin:0;
+    padding:0;
+    padding-bottom:15px;
+}
+.content5 .row .col-lg-6 .text2 span
+{
+    color:#000;
+    font-size: 15px;
+    font-weight: bold;
+}
+.content5 .row .col-lg-6 .text2 .border
+{
+    border-bottom:5px solid #fff;
+    width:60px;
+    margin:30px 0;
+    display: block;
+}
+.content5 .row .col-lg-6 .text2 .text3
+{
+    color:#fff;
+}
+.content6
+{
+    background: url("../CarRentImg/car22.jpg");
+    background-size: cover; 
+}
+.content6 .row .col-lg-12 h2
+{
+    text-align: center;
+    text-transform: uppercase;
+    color:#000;
+    padding-top:50px;
+    padding-bottom:40px;
+    font-size: 27px;
+    font-weight: bold;
+    font-family: 'Roboto Condensed';
+}
+.content6 .row .col-lg-12 .row .icon2
+{
+    margin-right: 30px;
+    border:8px solid #f9f9f9;
+    border-radius: 50%;
+    display: block;
+    float: left;
+}
+.content6 .row .col-lg-12 .row i
+{
+    font-size: 24px;
+    background: #fff;
+    width:62px;
+    height:62px;
+    text-align: center;
+    border:1px solid #eeeeee;
+    border-radius: 50%;
+    line-height: 62px;
+    transition: .5s;
+    cursor: pointer;
+}
+.content6 .row .col-lg-12 .row i:hover
+{
+    color:#fff;
+    background: #ff4e00;
+    border:0;
+}
+.content6 .row .col-lg-12 .row .text4 p
+{
+    text-transform: uppercase;
+    margin:0;
+    padding:0;
+    margin-bottom:10px;
+    font-size: 15px;
+    color:#282828;
+    font-family: 'Roboto Condensed';
+    font-weight: 700;
+}
+.content6 .row .col-lg-12 .row .text4 span
+{
+    font-size: 15px;
+    color:#282828;
+    line-height: 24px;
+    display: block;
+}
+.content7
+{
+    background: #f8f8f8;
+}
+.content7 .row .col-lg-6 h1
+{
+    color:#282828;
+    margin:0;
+    padding:0;
+    font-weight: 800;
+    text-align: left;
+    font-size: 27px;
+    font-family: 'Roboto Condensed';
+    padding-top:50px;
+    padding-bottom:30px;
+    text-transform: uppercase;
+}
+.content7 .row .col-lg-6 .border2
+{
+    border-bottom:3px solid #282828;
+    width:60px;
+    margin-bottom:50px;
+    display: block;
+}
+.content7 .row .col-lg-6 .carousel .carousel-item span
+{
+    margin: 0;
+    padding: 0;
+    font-style: italic;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 30px;
+    height: 96px;
+    overflow: auto;
+    color:#282828;
+}
+.content7 .row .col-lg-6 .carousel .carousel-item .photo 
+{
+    margin-top:30px;
+    margin-bottom:100px;
+}
+.content7 .row .col-lg-6 .carousel .carousel-item .photo img
+{
+    width:70px;
+    height:70px;
+    border-radius: 50%;
+    float: left;
+    margin-right: 20px;
+}
+.content7 .row .col-lg-6 .carousel .carousel-item .photo p
+{
+    text-transform: uppercase;
+    font-weight: 700;
+    color:#282828;
+    padding-top:10px;
+    font-size: 16px;
+}
+.content7 .row .col-lg-6 .carousel .it  p
+{
+    text-transform: uppercase;
+    font-weight: 700;
+    color:#282828;
+    padding-top:50px;
+    padding-bottom:75px;
+    font-size: 16px;
+}
+.content8
+{
+    padding-bottom:100px;
+}
+.content8 h1
+{
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-family: 'Roboto Condensed';
+    padding-top:30px;
+    padding-bottom:50px;
+    font-size: 25px;
+}
+.content8 .row .col-lg-4 .card
+{
+    width:100%;
+    border-radius: 0;
+}
+.content8 .row .col-lg-4 img
+{
+    height: 275px;
+    border-radius: 0;
+    position: relative;
+}
+.content8 .row .col-lg-4 .card-date
+{
+    position: absolute;
+    top:-20px;
+    left: 40px;
+    color:#fff;
+}
+.content8 .row .col-lg-4 .card-date span
+{
+    display: block;
+}
+.content8 .row .col-lg-4 .card-date .day
+{
+    background: #ff4e00;
+    padding: 5px 21px 5px 20px;
+    font-size: 20px;
+    font-weight: 700;
+}
+.content8 .row .col-lg-4 .card-date .month
+{
+    color:#000;
+    background: #fff;
+    text-align: center;
+    font-weight: 700;
+}
+.content8 .row .col-lg-4 .card .card-title
+{
+    text-decoration: none;
+    color:#000;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 19px;
+    transition: .2s;
+}
+.content8 .row .col-lg-4 .card .card-title:hover
+{
+    color:#ff4e00;
+}
+.content8 .row .col-lg-4 .card .card-text
+{
+    color:#000;
+    text-transform: capitalize;
+    font-size: 13px;
+    padding-top:10px;
+    padding-bottom:20px;
+}
+.content8 .row .col-lg-4 .card .card-text a
+{
+    text-decoration: none;
+    color:#ff4e00;
+}
+.footer
+{
+    background: url("../CarRentImg/car34.jpg");
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    padding:40px;
+}
+.footer .row .col-lg-3 h1
+{
+    color:#fff;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+.footer .row .col-lg-3 .border3
+{
+    border-bottom:3px solid #ff4e00;
+    width:60px;
+    margin-top:30px;
+    margin-bottom:20px;
+    display: block;
+}
+.footer .row .col-lg-3 p
+{
+    color:#d9d9d9;
+    font-size: 13px;
+}
+.footer .row .col-lg-3 ul
+{
+    margin:0;
+    padding:0;
+}
+.footer .row .col-lg-3 ul li
+{
+    list-style: none;
+    color:#fff;
+    font-size: 13px;
+    text-transform: capitalize;
+    cursor: pointer;
+    transition: .2s;
+    padding-top:12px;
+}
+.footer .row .col-lg-3 ul li:hover
+{
+    color:#ff4e00;
+}
+.footer .row .col-lg-3 ul li i
+{
+    float: left;
+    padding-right: 5px;
+    font-size: 11px;
+    padding-top:6px;
+    color:#fff;
+}
+.footer .row .col-lg-3 ul li:hover i
+{
+    color:#ff4e00;
+}
+.footer .row .col-lg-3 .gallery 
+{
+    border-bottom:1px dashed #353535;
+    padding-bottom:30px;
+    margin-bottom:20px;
+}
+.footer .row .col-lg-3 .gallery img
+{
+    float: left;
+    margin-right: 15px;
+}
+.footer .row .col-lg-3 .gallery .text5
+{
+    color:#d9d9d9;
+    position: relative;
+    top:-5px;
+}
+.footer .row .col-lg-3 .gallery .text5 .list2
+{
+    text-transform: capitalize;
+    font-weight: bold;
+}
+.footer .row .col-lg-3 .test
+{
+    color:#d9d9d9;
+}
+.footer .row .col-lg-3 .test2
+{
+    margin:0;
+    padding:0;
+}
+.footer .row .col-lg-3 .test2 li
+{
+    list-style: none;
+    color:#fff;
+    font-size: 15px;
+}
+.footer .row .col-lg-3 .test2 li:hover
+{
+    color:#fff;
+}
+.footer .row .col-lg-3 .social 
+{
+    margin-top:30px;
+}
+.footer .row .col-lg-3 .social i
+{
+    float: left;
+    padding:10px;
+    margin-right: 7px;
+    color:#fff;
+    background: #1c1c1c;
+    text-align: center;
+    cursor: pointer;
+    transition: .2s;
+}
+.footer .row .col-lg-3 .social i:hover
+{
+    background: #ff4e00;
+}
+.footer2
+{
+    background: #000;
+}
+.footer2 p
+{
+    text-align: center;
+    color:#858484;
+    padding:20px 20px 10px 20px;
+}

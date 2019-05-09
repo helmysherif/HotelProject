@@ -1,0 +1,32 @@
+$(".fa-search").click(function(){
+    $(".dropdown-menu1").toggle();
+});
+$(".nav-link").click(function(){
+    $(this).css("border-bottom","1px");
+    $(this).css("border-bottom","solid");
+    $(this).css("border-bottom","black");
+});
+$(".nav1").click(function(){
+    $(".p1").fadeIn(1000);
+    $(".p2").hide();
+    $(".p3").hide();
+    $(".p4").hide();
+});
+$(".nav2").click(function(){
+    $(".p1").hide();
+    $(".p2").fadeIn(1000);
+    $(".p3").hide();
+    $(".p4").hide();
+});
+$(".nav3").click(function(){
+    $(".p1").hide();
+    $(".p3").fadeIn(1000);
+    $(".p2").hide();
+    $(".p4").hide();
+});
+$(".nav4").click(function(){
+    $(".p1").hide();
+    $(".p4").fadeIn(1000);
+    $(".p2").hide();
+    $(".p3").hide();
+});

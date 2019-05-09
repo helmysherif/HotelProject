@@ -1,0 +1,93 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0; }
+
+.col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11, .col-12 {
+  float: left;
+  padding: 10px;
+  background: #eee;
+  border: 1px solid #aaa;
+  text-align: center;
+  font-weight: bold;
+  font-family: Tahoma; }
+
+.col-1 {
+  width: 8.3333333333%; }
+
+.col-2 {
+  width: 16.6666666667%; }
+
+.col-3 {
+  width: 25%; }
+
+.col-4 {
+  width: 33.3333333333%; }
+
+.col-5 {
+  width: 41.6666666667%; }
+
+.col-6 {
+  width: 50%; }
+
+.col-7 {
+  width: 58.3333333333%; }
+
+.col-8 {
+  width: 66.6666666667%; }
+
+.col-9 {
+  width: 75%; }
+
+.col-10 {
+  width: 83.3333333333%; }
+
+.col-11 {
+  width: 91.6666666667%; }
+
+.col-12 {
+  width: 100%; }
+
+.facebook {
+  font-weight: bold; }
+
+.twitter {
+  font-weight: bold; }
+
+.youtube {
+  font-weight: bold; }
+
+.linkedin {
+  font-weight: bold; }
+
+.codepen {
+  font-weight: bold; }
+
+h1 {
+  font-size: 250px; }
+
+h2 {
+  font-size: 200px; }
+
+h3 {
+  font-size: 150px; }
+
+h4 {
+  font-size: 100px; }
+
+h5 {
+  font-size: 50px; }
+
+.class1 {
+  font-size: 20px; }
+
+.class2 {
+  font-size: 25px; }
+
+.class3 {
+  font-size: 30px; }
+
+.class4 {
+  font-size: 35px; }
+
+/*# sourceMappingURL=Grid.css.map */

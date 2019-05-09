@@ -1,0 +1,330 @@
+@import url('https://fonts.googleapis.com/css?family=Oleo+Script|Oleo+Script+Swash+Caps');
+header
+{
+    background-color: rgba(241,246,245, 1);
+    padding:20px;
+    width:100%;
+    height:70px;
+    padding-top:25px;
+    padding-bottom:20px;
+}
+header .cont1 ul
+{
+    margin:0;
+    padding:0;
+}
+header .cont1 ul li
+{
+    list-style: none;
+    font-size: 13px;
+    float: left;
+    margin-right: 15px;
+    padding-right: 10px;
+}
+header .cont1 ul li i
+{
+    color:#ff4e00;
+    padding-right: 10px;
+}
+header .cont1 ul li span
+{
+    color: #5c5b5b;
+}
+header .cont1 .social 
+{
+    float: right;
+}
+header .cont1 .social i
+{
+    color:#797979;
+    float: left;
+    padding:10px;
+    padding-top:0;
+    transition: .2s;
+    cursor: pointer;
+}
+header .cont1 .social i:hover
+{
+    color: #aece89;
+}
+.content1
+{
+    line-height: 6;
+}
+.content1 .navbar
+{
+    line-height: 4.3;
+    float: right;
+}
+.content1 .navbar .nav-link
+{
+    text-transform: uppercase;
+    font-weight: bold;
+    padding-right: 20px;
+}
+.content1 .navbar .nav-link.active
+{
+    color: #ffa28f;
+}
+.content2 .row .col-lg-12 .carousel-inner
+{
+    position: relative;
+}
+.content2 .row .col-lg-12 .info
+{
+    position: absolute;
+    top:35%;
+    left: 42%;
+    text-align: center;
+}
+.content2 .row .col-lg-12 .info h1
+{
+    font-size: 58px;
+    color:#272727;
+    font-family: 'Oleo Script Swash Caps', cursive;
+    font-family: 'Oleo Script', cursive;    text-transform: capitalize;
+    font-weight: bold;
+}
+.content2 .row .col-lg-12 .info .border4
+{
+    border-bottom:3px solid #000;
+    width:60px;
+    margin:30px 0;
+    display: block;
+    text-align: center;
+    position: relative;
+    left: 37%;
+}
+.content2 .row .col-lg-12 .info p
+{
+    font-size: 20px;
+    text-transform: capitalize;
+    font-weight: 600;
+}
+.content2 .row .col-lg-12 .info .btn
+{
+    background:#aece89;
+    border-radius: 25px;
+    border:0;
+    color:#fff;
+    text-transform: uppercase;
+    font-weight: bold;
+    height: 50px;
+    width:160px;
+    margin-top:20px;
+}
+.content3
+{
+    background-color: #f1f6f5;
+}
+.content3 .row .col-lg-12 .caption
+{
+    float: left;
+    width:33.3333333%;
+    margin-bottom:100px;
+    text-align: center;
+    padding: 40px 30px 35px 30px;
+    position: relative;
+    margin-top:-60px;
+}
+.content3 .row .col-lg-12 .cap
+{
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+.content3 .row .col-lg-12 .cap2
+{
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.content3 .row .col-lg-12 .count
+{
+    font-size: 1550%;
+    line-height: 200px;
+    font-weight: bold;
+    font-family: 'Oleo Script Swash Caps', cursive;
+    font-family: 'Oleo Script', cursive;    opacity: 0.1;
+    text-align: left;
+    vertical-align: top;
+    position: absolute;
+    left: 0;
+    bottom: 0px;
+    color:#fff;
+}
+.content3 .row .col-lg-12 .caption p
+{
+    margin:0;
+    font-size: 16px;
+    line-height: 24px;
+    padding-top:10px;
+    color:#fff;
+}
+.content3 .row .col-lg-12 .caption .text
+{
+    padding-top:20px;
+}
+.content3 .row .col-lg-12 .caption span
+{
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color:#fff;
+    font-weight: 600;
+    font-size: 20px;
+}
+.content4
+{
+    background: url("../flowerimg/flower8.jpg");
+    background-size: cover;
+}
+.content4 .row .col-lg-12 h1
+{
+    color:#282828;
+    font-weight: bold;
+    text-align: left;
+    margin:0;
+    padding:0;
+    padding-bottom:5px;
+    padding-top:100px;
+    text-transform: capitalize;
+    font-size: 40px;
+    font-family: 'Oleo Script Swash Caps', cursive;
+    font-family: 'Oleo Script', cursive;
+}
+.content4 .row .col-lg-12 h1 span
+{
+    color:#ffa28f;
+}
+.content4 .row .col-lg-12 p
+{
+    font-weight: bold;
+    margin:0 0 15px;
+    font-size: 16px;
+}
+.content4 .row .col-lg-12 .text2
+{
+    line-height: 24px;
+    margin:0 0 20px 0;
+    font-size: 13px;
+    padding-bottom:20px;
+}
+.content4 .row .col-lg-12 .btn
+{
+    background:#aece89;
+    border-radius: 25px;
+    border:0;
+    color:#fff;
+    text-transform: uppercase;
+    font-weight: bold;
+    height: 50px;
+    width:205px;
+    margin-top:150px;
+    margin-bottom:50px;
+}
+.content5
+{
+    background: url("../flowerimg/flower9.jpg");
+    background-size: cover;
+    padding-bottom:50px;
+}
+.content5 h1
+{
+    text-align: center;
+    font-family: 'Oleo Script Swash Caps', cursive;
+    font-family: 'Oleo Script', cursive;
+    text-transform: capitalize;
+    font-weight: bold;
+    padding-top:80px;
+    padding-bottom:80px;
+}
+.content5 h1 span
+{
+    color:#ffa28f;
+}
+.content5 .owl-carousel .image
+{
+    background: rgba(255,255,255, 1);
+    width:260px;
+    height:260px;
+    margin:0 auto;
+    line-height: 260px;
+    overflow: hidden;
+    border-radius: 50%;
+    transition: .3s;
+}
+.content5 .owl-carousel img
+{
+    margin-top: -11px;
+    vertical-align: top;
+    min-height: 260px;
+    cursor: pointer;
+}
+.content5 .owl-carousel .item
+{
+    transition: .3s;
+}
+.content5 .owl-carousel .item:hover .image
+{
+    background: #aece89;
+}
+.content5 .owl-carousel p
+{
+    text-align: center;
+    text-transform: uppercase;
+    padding:13px 30px;
+    font-weight: 500;
+    margin:45px auto 10px auto;
+    color:#282828;
+    font-size: 17px;
+    cursor: pointer;
+    transition: .3s;
+}
+.content5 .owl-carousel .item:hover p
+{
+    background: #aece89;
+    color:#fff;
+}
+.content5 .owl-carousel .owl-nav.disabled
+{
+    display: inherit;
+    margin-top:50px;
+    margin-bottom:100px;
+}
+.content5 .owl-carousel .owl-nav .owl-prev
+{
+    background: #aece89;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border-right: solid 1px #ffffff;
+    color: #ffffff;
+    line-height: 53px;
+    text-align: center;
+    width: 55px;
+    height: 53px;
+    font-size: 30px;
+    transition: .3s;
+}
+.content5 .owl-carousel .owl-nav .owl-next
+{
+    margin-left: -5px;
+    transition: .3s;
+    background: #aece89;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    border-right: solid 1px #ffffff;
+    color: #ffffff;
+    line-height: 53px;
+    text-align: center;
+    width: 55px;
+    height: 53px;
+    font-size: 30px;
+}
+.content5 .owl-carousel .owl-nav .owl-prev:hover,
+.content5 .owl-carousel .owl-nav .owl-next:hover
+{
+    background: #ffa28f;
+}
+.content5 .owl-carousel .owl-nav .owl-prev:focus,
+.content5 .owl-carousel .owl-nav .owl-next:focus
+{
+    outline: 0;
+}

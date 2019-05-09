@@ -1,0 +1,44 @@
+.form
+{
+    position: relative;
+    top:-400px;
+    text-align: center;
+    border:1px solid #fff;
+    background: #fff;
+    width:0;
+    margin-left:22%;
+    height:10px;
+    padding-right:80px;
+    padding-left:80px;
+    overflow: hidden;
+}
+.form p
+{
+    text-transform: capitalize;
+    color: grey;
+}
+.form .form-control
+{
+    position: relative;
+    margin-bottom:30px;
+    z-index:1000;
+}
+.form  .input1
+{
+    left:-600px;
+}
+.form  .input2
+{
+    left:600px;
+}
+.form .form-check
+{
+    text-align: left;
+    position: relative;
+    top:-600px;
+}
+.form .btn
+{
+    position: relative;
+    top:300px;
+}

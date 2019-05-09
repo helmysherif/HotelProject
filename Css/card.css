@@ -1,0 +1,183 @@
+.container .row .col-md-6 ul
+{
+    list-style:none;
+    padding-left:0;
+    margin: 0;
+    padding: 0;
+}
+.container .row .col-md-6 ul li
+{
+    display: inline-block;
+}
+.header .container .row .col-md-6 ul li a
+{
+    padding: 0 3px;
+    display: block;
+    line-height: 35px;
+    font-size: 14px;
+    transition: all .3s ease-in-out;
+    color: #797979;
+    text-decoration:none;
+}
+.header .container .row .col-md-6 .list
+{
+    padding-left:0;
+    float: right;
+    list-style:none;
+}
+.header .container .row .col-md-6 .list .account
+{
+    padding:0;
+    margin:0 0 0 10px;
+}
+.header .container .row .col-md-6 .list .account span a {
+    font-size: 12px;
+    display: inline-block;
+    color: #d9d9d9;
+    transition: all .3s ease-in-out;
+    padding:0 3px;
+    text-decoration:none;
+}
+.header .container .row .col .col-md-6 .account span small
+{
+    color: rgba(255,255,255,.5);
+    padding: 0 10px;
+    font-size: 80%;
+    font-weight: 400;
+}
+.header .container .row .col-md-6 .list .search a .fa-search
+{
+    width:20px;
+    font-size:16px;
+    margin-right:10px;
+    color: #fff;
+    transition: all .3s ease-in-out;
+    padding: 0 10px;
+    border-left:1px solid #5c2020;
+}
+.header .container .row .col-12 .list .search .dropdown-menu1
+{
+    width:350px;
+    padding: 10px 15px;
+    border-radius: 0;
+    right: 0;
+    left: auto;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 1000;
+    display: none;
+    float: left;
+    min-width: 10rem;
+    padding: .5rem 0;
+    margin: .125rem 150px 0;
+    font-size: 1rem;
+    color: #212529;
+    text-align: left;
+    list-style: none;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid rgba(0,0,0,.15);
+}
+.header .container .row .col-12 .list .search .dropdown-menu1 .form-inline input[type="text"],.btn
+{
+    border-radius:0;
+}
+.header .container .row .col-md-6 .list .search a .fa-search:hover
+{
+    color: #797979;
+}
+.header .container .row .col-md-6 .list .shop 
+{
+    background-color:#47bac1;
+}
+.header .container .row .col-md-6 .list .shop .a1 .fa-shopping-cart
+{
+    font-size: 20px;
+    margin-right: 10px;
+    display: inline-block;
+    color:white;
+}
+.header .container .row .col .list .shop .a1 span
+{
+    color:white;
+}
+
+.header2 .container .row .col .navbar .collapse .navbar-nav .nav-item .nav-link
+{
+    margin: 0;
+    padding-right:20px;
+    letter-spacing: 1px;
+    font-size: 14px;
+}
+.header2 .container .row .col .navbar .collapse .navbar-nav .nav-item .nav-link:hover
+{
+    color:#00b3b3;
+}
+.header2 .container .row .col .navbar .collapse .navbar-nav .nav-item .dropdown-menu .dropdown-item
+{
+    padding-bottom:15px;
+    background-color:white;
+    z-index: 1;
+    transition: .5s;
+}
+.header2 .container .row .col .navbar .collapse .navbar-nav .nav-item .dropdown-menu .dropdown-item:hover
+{
+    color:#00b3b3;
+}
+.header2 .container .row .col .navbar .collapse .navbar-nav .nav-item .dropdown-menu 
+{
+    display:none;
+}
+.header2 .container .row .col .navbar .collapse .navbar-nav .nav-item:hover .dropdown-menu
+{
+    display:block;
+}
+.bar
+{
+    background-image:url("../images/child.png");
+    background-size:cover;
+    height:200px; 
+}
+.bar .container .row .col-lg-12 p
+{
+    font-size:30px;
+    padding-top:50px;
+    text-align:center;
+    color:white;
+}
+.bar .container .row .col-lg-12 .div
+{
+    text-align:center;
+    color:white;
+    margin-top:-20px
+}
+.cont2 .row .col-lg-12 table
+{
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+.cont2 .row .col-lg-12 table td,th
+{
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+.cont2 .row .col-lg-12 table tr .th
+{
+    background-color: #47bac1;
+    text-align:center;
+    color:white;
+    border:none;
+    border-left:1px solid lightgrey
+}
+.cont2 .row .col-lg-12 table td
+{
+    border-left:none;
+}
+.cont2 .row .col-lg-12 table th 
+{
+    padding-left:30px;
+    border-right:none;
+}

@@ -1,0 +1,44 @@
+$(".nav1").click(function(){
+  $(".p1").fadeIn(1000);
+  $(".p2").hide();
+  $(".p3").hide();
+});
+$(".nav2").click(function(){
+  $(".p1").hide();
+  $(".p2").fadeIn(1000);
+  $(".p3").hide();
+});
+$(".nav3").click(function(){
+  $(".p1").hide();
+  $(".p3").fadeIn(1000);
+  $(".p2").hide();
+});
+$(document).ready(function(){
+  $(".owl-carousel").owlCarousel();
+});
+$('.owl-carousel').owlCarousel({
+  loop:true,
+  margin:10,
+  responsiveClass:true,
+  responsive:{
+      0:{
+          items:1,
+          nav:true
+      },
+      600:{
+          items:2,
+          nav:false
+      },
+      1000:{
+          items:5,
+          nav:true,
+          loop:false
+      }
+  }
+})
+$(window).load(function() {
+  $('.flexslider').flexslider({
+    animation: "slide",
+    controlNav: "thumbnails"
+  });
+});

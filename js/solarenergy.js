@@ -1,0 +1,24 @@
+$(".navbar li").click(function(){
+    $(this).addClass("active").siblings().removeClass("active");
+});
+$(".num").counterUp({delay:10,time:1000})
+$('.owl-carousel').owlCarousel({
+    loop:true,
+    margin:10,
+    responsiveClass:true,
+    responsive:{
+        0:{
+            items:1,
+            nav:true
+        },
+        600:{
+            items:1,
+            nav:false
+        },
+        1000:{
+            items:3,
+            nav:true,
+            loop:false
+        }
+    }
+  })
